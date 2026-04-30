@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+button {
+    background: pink;
+    border: none;
+    padding: 10px;
+    color: white;
+}
